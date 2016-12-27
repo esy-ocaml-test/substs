@@ -1,5 +1,7 @@
 {
     "name": "substs",
     "version": "0.0.1",
-    "bin" : {"substs" : "./substs"}
+    "esy": {
+        "build": "cp ./substs $cur__bin/substs"
+    }
 }
