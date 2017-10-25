@@ -1,7 +1,13 @@
 {
-    "name": "substs",
-    "version": "0.0.1",
-    "esy": {
-        "build": "cp ./substs $cur__bin/substs"
-    }
+  "name": "@esy-ocaml/substs",
+  "version": "0.0.1",
+  "esy": {
+    "build": [
+      [
+        "cp",
+        "./substs",
+        "$cur__bin/substs"
+      ]
+    ]
+  }
 }
